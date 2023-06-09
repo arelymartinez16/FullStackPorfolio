@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="hotel.js"></script>
+        <title>Hotel</title>
+    </head>
+    <body>
+        <h1>Hotels</h1>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Card image cap">
+            <div class="card-body">
+                <h3 id="hotel1"></h3>
+            </div>
+        </div>  
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/1697076/pexels-photo-1697076.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Card image cap">
+            <div class="card-body">
+                <h3 id="hotel2"></h3>
+            </div>
+        </div> 
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://images.pexels.com/photos/3124079/pexels-photo-3124079.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Card image cap">
+            <div class="card-body">
+                <h3 id="hotel3"></h3>
+            </div>
+        </div>    
+        <script>
+            let luigiHotel = new Hotel("Luigi's Hotel", 50, 40);
+            let dreamHotel = new Hotel("Dream Hotel", 250, 50);
+            let marioHotel = new Hotel("Mario", 200, 100);
+                        
+            let hotelName1 = document.getElementById("hotel1");
+            hotelName1.innerHTML = luigiHotel.name;
+            let hotelName2 = document.getElementById("hotel2");
+            hotelName2.innerHTML = dreamHotel.name;
+            document.getElementById("hotel3").innerHTML = marioHotel.name;
+        </script>   
+    </body>
+</html>
