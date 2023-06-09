@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#title {
+    padding-top: 20px;
+    margin-bottom: 0.5em;
+}
+
+.hotel-images {
+    width: 500px;
+    height: 500px;
+}
