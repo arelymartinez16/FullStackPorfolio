@@ -5,4 +5,20 @@ class Restaurant {
         this.numEmployees = numEmployees;
         this.menu = menu;
     }
+
+    get name() {
+        return this.name;
+    }
+
+    set name(name) {
+        this.name = name;
+    }
+
+    hireWaitress() {
+        this.numEmployees++;
+    }
+
+    fireEmployee() {
+        this.numEmployees--;
+    }
 }
