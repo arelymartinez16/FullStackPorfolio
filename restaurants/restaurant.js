@@ -6,13 +6,13 @@ class Restaurant {
         this.menu = menu;
     }
 
-    get name() {
+    /* get name() {
         return this.name;
     }
 
     set name(name) {
         this.name = name;
-    }
+    } */
 
     hireWaitress() {
         this.numEmployees++;

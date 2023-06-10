@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Arely</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
@@ -18,26 +18,46 @@
     </head>
     <body>
         <header>
-            <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark" style="padding-left: 20%;">
+            <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark" style="padding-left: 20%; margin-top: -20px;">
                 <div class="container-fluid">
                     <span class="navbar-text"> 
                         <a class="navbar-brand" href="#" style="color: aliceblue;">Portfolio</a>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link" href="#bio">Bio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#certifications">Certifications</a>
                             </li>
                         </ul>
                     </span> 
                 </div>
                 
             </nav>
-            <h2 style="text-align: center;">I am Arely</h2>
-            <img src="assets/images/me.jpg" width="400px" height="400px" style="border-radius: 50%;">
+            <h2 id="title" style="text-align: center;">I am Arely</h2>
+            <img id="me" src="assets/images/me.jpg" width="400px" height="400px" style="border-radius: 50%;">
         </header>
 
+        <div class="content">
+            <section>
+                <h2 id="bio">Bio</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ut ad incidunt error neque impedit fuga voluptatum. Ea, sequi excepturi quidem debitis hic ducimus vero necessitatibus distinctio iusto dicta eaque.</p>
+            </section>
+    
+            <section>
+                <h2 id="projects">Projects</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aperiam assumenda ducimus natus id distinctio praesentium explicabo, pariatur ullam hic nulla voluptatibus omnis sint mollitia sunt asperiores neque minima corporis?</p>
+            </section>
+    
+            <section>
+                <h2 id="certifications">Certifications</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, optio quasi magnam nisi autem repellat, explicabo rem adipisci earum rerum voluptates veritatis officia possimus, odit culpa ipsa enim illo maiores?</p>
+            </section>
+        </div>
+        
         <script>
             // this actually shows on the web page, not on the console
             document.write("Hello, World");
